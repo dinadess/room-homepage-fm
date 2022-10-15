@@ -27,11 +27,11 @@ Users should be able to:
 
 ### Screenshot
 
-[Here is a screenshot on desktop](./images/myScreenshot.png)
+![Here is a screenshot](./images/myScreenshot.png)
 
 ### Links
 
-- Solution URL: [Solution on Frontend Mentor](https://your-solution-url.com)
+- Solution URL: [Solution on Frontend Mentor](https://www.frontendmentor.io/solutions/room-homepage-animated-slider-using-vanilla-js-jCJesm65Y9)
 - Live Site URL: [check it here](https://dinadess.github.io/room-homepage-fm/)
 
 ## My process
