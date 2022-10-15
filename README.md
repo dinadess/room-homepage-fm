@@ -27,12 +27,12 @@ Users should be able to:
 
 ### Screenshot
 
-[./images/myScreenshot.png](./screenshot.jpg)
+[Here is a screenshot on desktop](./images/myScreenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution on Frontend Mentor](https://your-solution-url.com)
+- Live Site URL: [check it here](https://dinadess.github.io/room-homepage-fm/)
 
 ## My process
 
