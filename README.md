@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-[Here is a screenshot on desktop](./images/myScreenshot.png)
+![Here is a screenshot on desktop](./images/myScreenshot.png)
 
 ### Links
 
