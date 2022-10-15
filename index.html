@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- displays site properly based on user's device -->
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;600;700&display=swap" rel="stylesheet">
+
+	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+	<link rel="stylesheet" href="./style.css">
+
+	<title>Frontend Mentor &mdash; Room Homepage</title>
+
+</head>
+
+<body class="container">
+	<header class="header">
+		<a href="#" class="logo-link">
+			<img src="./images/logo.svg" alt="Logo" class="logo-img">
+		</a>
+		<button type="menu" role="menu" class="menu-btn">
+			<img src="./images/icon-hamburger.svg" alt="Menu" class="menu">
+		</button>
+		<nav class="nav">
+			<button role="close" class="close-btn">
+				<img src="./images/icon-close.svg" alt="Close Button" class="close">
+			</button>
+			<ul class="nav-list">
+				<li><a href="#">home</a></li>
+				<li><a href="#">shop</a></li>
+				<li><a href="#">about</a></li>
+				<li><a href="#">contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main class="main">
+		<div class="backdrop" aria-hidden="true"></div>
+		<div class="sub-container first-sub-container">
+			<div class="slider" aria-label="carousel">
+
+				<!-- First Slide -->
+				<section class="slide">
+					<picture class="hero slide-picture">
+						<source media="(max-width: 400px)" srcset="./images/mobile-image-hero-1.jpg">
+						<img src="./images/desktop-image-hero-1.jpg" alt="A white chair" class="slide-img">
+					</picture>
+					<div class="primary-section-text-container">
+						<div class="sub-text-container">
+							<h1 class="slide-title">Discover innovative ways to decorate</h1>
+							<p class="slide-desc">
+								We provide unmatched quality, comfort, and style for property owners across the country.
+								Our experts combine form and function in bringing your vision to life. Create a room in
+								your
+								own style with our collection and make your property a reflection of you and what you
+								love.
+							</p>
+							<a href="#" class="slide-link shop-now">Shop now</a>
+						</div>
+					</div>
+				</section>
+
+				<!-- Second Slide -->
+				<section class="slide">
+					<picture class="hero slide-picture">
+						<source media="(max-width: 400px)" srcset="./images/mobile-image-hero-2.jpg">
+						<img src="./images/desktop-image-hero-2.jpg" alt="A bright decor" class="slide-img">
+					</picture>
+					<div class="primary-section-text-container">
+						<div class="sub-text-container">
+							<h1 class="slide-title">We are available all across the globe</h1>
+							<p class="slide-desc">
+								With stores all over the world, it's easy for you to find furniture for your home or
+								place of business. Locally, we’re in most major cities throughout the country. Find the
+								branch nearest you using our store locator. Any questions? Don't hesitate to contact us
+								today.
+							</p>
+							<a href="#" class="slide-link shop-now">Shop now</a>
+						</div>
+					</div>
+				</section>
+
+				<!-- Third Slide -->
+				<section class="slide">
+					<picture class="hero slide-picture">
+						<source media="(max-width: 400px)" srcset="./images/mobile-image-hero-3.jpg">
+						<img src="./images/desktop-image-hero-3.jpg" alt="A black chair" class="slide-img">
+					</picture>
+					<div class="primary-section-text-container">
+						<div class="sub-text-container">
+							<h1 class="slide-title">Manufactured with the best materials</h1>
+							<p class="slide-desc">
+								Our modern furniture store provide a high level of quality. Our company has invested in
+								advanced technology to ensure that every product is made as perfect and as consistent as
+								possible. With three decades of experience in this industry, we understand what
+								customers want for their home and office.
+							</p>
+							<a href="#" class="slide-link shop-now">Shop now</a>
+						</div>
+					</div>
+				</section>
+
+				<!-- Navigation -->
+				<div class="slider-nav">
+					<button class="prevBtn" aria-label="Go to previous slide">
+						<img src="./images/icon-angle-left.svg" alt="Previous Button Image">
+					</button>
+					<button class="nextBtn" aria-label="Go to next slide">
+						<img src="./images/icon-angle-right.svg" alt="Next Button Image">
+					</button>
+				</div>
+			</div>
+		</div>
+
+		<div class="sub-container second-sub-container">
+			<div class="about-dark-img-container">
+				<img src="./images/image-about-dark.jpg" alt="About Dark Design">
+			</div>
+
+			<section class="secondary-section-text-container">
+				<div class="sub-text-container">
+					<h2 class="secondary-section-title">About our furniture</h2>
+					<p class="secondary-section-description">
+						Our multifunctional collection blends design and function to suit your individual taste.
+						Make each room unique, or pick a cohesive theme that best express your interests and what
+						inspires you. Find the furniture pieces you need, from traditional to contemporary styles
+						or anything in between. Product specialists are available to help you create your dream space.
+					</p>
+				</div>
+			</section>
+			<div class="about-light-img-container">
+				<img src="./images/image-about-light.jpg" alt="About Light Design">
+			</div>
+		</div>
+	</main>
+
+	<footer>
+		<div class="attribution">
+			Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+			Coded by <a href="https://www.frontendmentor.io/profile/dinadess">Oshyeld</a>.
+		</div>
+	</footer>
+	<script src="script.js"></script>
+</body>
+
+</html>
